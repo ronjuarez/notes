@@ -1,6 +1,8 @@
 # These are my notes from LHL Week 5
+---
 
-##A quick note on algorithms
+## A quick note on algorithms
+---
 
 **An algorithm is a recipe!**
 * They are like a set of steps that are instructions.
@@ -9,7 +11,8 @@
 *Algorithms are everywhere!...*
 * Some algorithms are fast and some are slow.
 
-> Why does the runtime of an algorithm depend on the number of operations and how do I determine what it is?
+### Why does the runtime of an algorithm depend on the number of operations and how do I determine what it is?
+---
 * Runtime is determined by the number of elementary operations an algorithm runs.
 * Elementary operations are any operations that result in some sort of manipulation of data 
 * If an algorithm performs `n` number of operations, We say running time is in `n`.
@@ -18,11 +21,13 @@
 * Every instance of a variable is `n` every operation counts as a number.
 * Runtime is represented as `3n + 2` in this example 3 is the number of instances of our variable and 2 is the number of operations completed.
 
-> What is binary search?
+### What is binary search?
+---
 * Binary search is a type of search that finds en element in a list by spliting the list in half until it finds the required element.
 * This is a logarithmic type of search.
 
-**This is a list of questions I would like to review and take notes on that I haven't been able to do yet**
+### This is a list of questions I would like to review and take notes on that I haven't been able to do yet
+---
 * How can we study the search report of an array of ordered elements?
 * How do linear and binary search relate to eachother?
 * How do we determine a runtime's worst case scenario?
@@ -36,8 +41,9 @@
 
 ## A Longer Note on Databases
 
-> SQL stands for Structured Query Language
+### SQL stands for Structured Query Language
 **Here is a list of SQL keywords and how they work**
+---
 * We create tables in SQL using the CREATE keyword.
 * We add elements by using the INSERT INTO keyword.
 * We assign each element it's value using the VALUES keyword.
@@ -67,15 +73,14 @@
 * Always use WHERE with UPDATE and DELETE.
 
 
+### What is the PURPOSE of DATABASE and how are they DESIGNED?
+---
+* FIND and ORGANIZE data required, DIVIDE information into TABLES, TURN item information in COLUMNS and SPECIFY primary keys.
 * Reducing redundancies makes data highly sapce efficient on disk.
 * Database design is the organization of data according to a database model
 * ONTOLOGY is the theory behind database design that deals with classifying interrelated data.
 * Designers descrive what data will be stored by gathering domanin knowledge during the requirements process.
 * ERD or Entity Relationship diagrams help us design database efficiently.
-
-> What is the PURPOSE of DATABASE?
-* FIND and ORGANIZE data required, DIVIDE information into TABLES, TURN item information in COLUMNS and SPECIFY primary keys.
-
 * We APPLY normalization to refine DATABASE design and REDUCE redundancies.
 * This process involves creating tables to hide duplicate data where it can still be referenced. 
 * Database designers must determine the way that data depends and relates to eachother.
@@ -88,7 +93,8 @@
 * if information can relate to more than one key represent it on a table.
 
 
-> DDL and DML
+### DDL and DML
+---
 * Data Definition Language are the keywords we use to define a DB Schema.
 * The most common DDL statements are CREATE -> to ADD, ALTER -> to EDIT, and DROP -> to DELETE.
 * Any blank value in a table is considered a NULL value, anything defined in the schema as NOT NULL needs a value.
