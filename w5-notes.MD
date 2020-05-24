@@ -42,8 +42,8 @@
 ## A Longer Note on Databases
 
 ### SQL stands for Structured Query Language
-**Here is a list of SQL keywords and how they work**
 ---
+* **Here is a list of SQL keywords and how they work**
 * We create tables in SQL using the CREATE keyword.
 * We add elements by using the INSERT INTO keyword.
 * We assign each element it's value using the VALUES keyword.
