@@ -73,7 +73,7 @@
 * Always use WHERE with UPDATE and DELETE.
 
 
-### What is the PURPOSE of DATABASE and how are they DESIGNED?
+### What is the PURPOSE of DATABASES and how are they DESIGNED?
 ---
 * FIND and ORGANIZE data required, DIVIDE information into TABLES, TURN item information in COLUMNS and SPECIFY primary keys.
 * Reducing redundancies makes data highly sapce efficient on disk.
